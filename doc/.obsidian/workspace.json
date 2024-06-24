@@ -1,0 +1,194 @@
+{
+  "main": {
+    "id": "3f07c9b7cd1483ff",
+    "type": "split",
+    "children": [
+      {
+        "id": "41a707d6a4338431",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6060886de14f9257",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "050 - Annotations standard.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "23b74dbea4cfb8c9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Plan.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "68475ee771ae3bd6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Stream.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3b547290c51a6758",
+    "type": "split",
+    "children": [
+      {
+        "id": "f2f12ed77d8a8733",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0a218d97757dadfd",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "be68b60eafd4324f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f865dda3ee9c7ec4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "304549c91c3d13cb",
+    "type": "split",
+    "children": [
+      {
+        "id": "8c96c48f1b553ade",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "37000b54567c95a3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Stream.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "47306173078d351a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Stream.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0b7b6cb7536f1aac",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "4501f6287cd2ec06",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Stream.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "68475ee771ae3bd6",
+  "lastOpenFiles": [
+    "Plan.md",
+    "Stream.md",
+    "990 - Evolution Java 17 à 21.md",
+    "050 - Annotations standard.md",
+    "080 - Transactions.md",
+    "Profiling.md",
+    "070 - Performance.md",
+    "080 - Unchecked Exception.md",
+    "065 - Multithreading.md",
+    "060 - Créer ses propres annotations.md",
+    "040 - Design Pattern - Decorator.md",
+    "030 - Design Pattern Builder.md",
+    "020 - Design Pattern - Factory.md",
+    "Pasted image 20240619145102.png",
+    "Pasted image 20240619144315.png",
+    "010 - Révision bases Java.md",
+    "Pasted image 20240618111816.png"
+  ]
+}
