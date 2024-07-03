@@ -1,4 +1,4 @@
-package org.example.ex7.start2;
+package org.example.ex7.rep2;
 
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
@@ -11,11 +11,12 @@ import java.util.stream.Stream;
 public class MultiThreading {
 
     public static void main(String[] args) {
-        int nbThreads = 10;
+        int nbThreads = 16;
         int nbTasks = 1000;
 
         long startTime = System.currentTimeMillis();
-        try (ExecutorService executor = Executors.newFixedThreadPool(nbThreads)) {
+//        try (ExecutorService executor = Executors.newFixedThreadPool(nbThreads)) {
+        try (ExecutorService executor = Executors.newVirtualThreadPerTaskExecutor()) {
 
             CompletableFuture<?>[] futures = new CompletableFuture[nbTasks];
 
@@ -23,7 +24,6 @@ public class MultiThreading {
                     futures[i] = CompletableFuture.supplyAsync(BigDataOps::blackBox, executor));
 
             CompletableFuture.allOf(futures).join();
-
             String combined = Stream.of(futures)
                     .map(f -> {
                         try {
